@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <body>
-<head lang="en">
+<head lang="en" xml:lang="en">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <title>Users</title>
