@@ -23,7 +23,7 @@ public class AddUserServlet extends HttpServlet {
         User user = new User(req.getParameter("firstName"), req.getParameter("lastName"));
         Warehouse.getInstance().addUser(user);
         req.setAttribute("user", user);
-        req.getServletContext().getRequestDispatcher("/index.jsp").forward(req, resp);
+        req.getServletContext().getRequestDispatcher("/jsp/users.jsp").forward(req, resp);
     }
     //write your code here!
 }
